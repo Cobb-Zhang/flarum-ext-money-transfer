@@ -26,9 +26,9 @@
             "title": "Flarum-ext-money-batch-transfer",
             "category": "",
             "icon": {
-                "name": "",
-                "color": "",
-                "backgroundColor": ""
+                "name": "fas fa-wallet",
+                "color": "#fff",
+                "backgroundColor": "#146EF5"
             }
         },
         "flarum-cli": {

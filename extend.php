@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Cobbz\\FlarumExtMoneyBatchTransfer;
+namespace Cobbz\FlarumExtMoneyBatchTransfer;
 
 use Flarum\Extend;
 
