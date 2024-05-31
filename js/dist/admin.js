@@ -13,22 +13,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var flarum_admin_app__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! flarum/admin/app */ "flarum/admin/app");
 /* harmony import */ var flarum_admin_app__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(flarum_admin_app__WEBPACK_IMPORTED_MODULE_0__);
 
-flarum_admin_app__WEBPACK_IMPORTED_MODULE_0___default().initializers.add('cobbz/flarum-ext-money-batch-transfer', function () {
-  flarum_admin_app__WEBPACK_IMPORTED_MODULE_0___default().extensionData["for"]('cobbz-money-batch-transfer').registerSetting({
-    setting: 'cobbz-money-batch-transfer.transfer-amount',
-    label: flarum_admin_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('cobbz-money-batch-transfer.admin.transfer-amount.label'),
-    help: flarum_admin_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('cobbz-money-batch-transfer.admin.transfer-amount.help'),
+flarum_admin_app__WEBPACK_IMPORTED_MODULE_0___default().initializers.add('cobbz/flarum-ext-money-transfer', function () {
+  flarum_admin_app__WEBPACK_IMPORTED_MODULE_0___default().extensionData["for"]('cobbz-money-transfer').registerSetting({
+    setting: 'cobbz-money-transfer.transfer-amount',
+    label: flarum_admin_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('cobbz-money-transfer.admin.transfer-amount.label'),
+    help: flarum_admin_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('cobbz-money-transfer.admin.transfer-amount.help'),
     type: 'number'
   }, 30).registerSetting({
     type: 'string',
-    setting: 'cobbz-money-batch-transfer.moneyTransferTimeZone',
-    label: flarum_admin_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('cobbz-money-batch-transfer.admin.transfer-money-timezone'),
-    help: flarum_admin_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('cobbz-money-batch-transfer.admin.transfer-money-timezone-help'),
-    placeholder: flarum_admin_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('cobbz-money-batch-transfer.admin.transfer-money-timezone-default')
+    setting: 'cobbz-money-transfer.moneyTransferTimeZone',
+    label: flarum_admin_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('cobbz-money-transfer.admin.transfer-money-timezone'),
+    help: flarum_admin_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('cobbz-money-transfer.admin.transfer-money-timezone-help'),
+    placeholder: flarum_admin_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('cobbz-money-transfer.admin.transfer-money-timezone-default')
   }).registerPermission({
     icon: 'fas fa-money-bill',
-    label: flarum_admin_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('cobbz-money-batch-transfer.admin.permissions.edit_money_label'),
-    permission: 'cobbz-money-batch-transfer.allowUseTranferMoney'
+    label: flarum_admin_app__WEBPACK_IMPORTED_MODULE_0___default().translator.trans('cobbz-money-transfer.admin.permissions.edit_money_label'),
+    permission: 'cobbz-money-transfer.allowUseTranferMoney'
   }, 'moderate');
 });
 
@@ -45,8 +45,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var flarum_common_app__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! flarum/common/app */ "flarum/common/app");
 /* harmony import */ var flarum_common_app__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(flarum_common_app__WEBPACK_IMPORTED_MODULE_0__);
 
-flarum_common_app__WEBPACK_IMPORTED_MODULE_0___default().initializers.add('cobbz/flarum-ext-money-batch-transfer', function () {
-  console.log('[cobbz/flarum-ext-money-batch-transfer] Hello, forum and admin!');
+flarum_common_app__WEBPACK_IMPORTED_MODULE_0___default().initializers.add('cobbz/flarum-ext-money-transfer', function () {
+  console.log('[cobbz/flarum-ext-money-transfer] Hello, forum and admin!');
 });
 
 /***/ }),

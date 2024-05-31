@@ -9,12 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Cobbz\FlarumExtMoneyBatchTransfer;
+namespace Cobbz\FlarumExtMoneyTransfer;
 
 use Flarum\Extend;
-use Flarum\Api\Serializer\ForumSerializer;
-use Cobbz\FlarumExtMoneyBatchTransfer\Api\Controller\MoneyTransferController;
-use Cobbz\FlarumExtMoneyBatchTransfer\Api\Controller\EventsShowController;
+use Cobbz\FlarumExtMoneyTransfer\Api\Controller\MoneyTransferController;
 
 return [
     (new Extend\Frontend('forum'))

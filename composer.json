@@ -1,11 +1,10 @@
 {
-    "name": "cobbz/flarum-ext-money-batch-transfer",
+    "name": "cobbz/flarum-ext-money-transfer",
     "description": "extend money extension",
     "keywords": [
         "flarum"
     ],
     "type": "flarum-extension",
-    "version": "1.0.1",
     "license": "MIT",
     "require": {
         "flarum/core": "^1.2.0",
@@ -21,12 +20,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Cobbz\\FlarumExtMoneyBatchTransfer\\": "src/"
+            "Cobbz\\FlarumExtMoneyTransfer\\": "src/"
         }
     },
     "extra": {
         "flarum-extension": {
-            "title": "Flarum-ext-money-batch-transfer",
+            "title": "Flarum-ext-money-transfer",
             "category": "",
             "icon": {
                 "name": "fas fa-wallet",
@@ -57,7 +56,7 @@
     "prefer-stable": true,
     "autoload-dev": {
         "psr-4": {
-            "Cobbz\\FlarumExtMoneyBatchTransfer\\Tests\\": "tests/"
+            "Cobbz\\FlarumExtMoneyTransfer\\Tests\\": "tests/"
         }
     },
     "scripts": {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Cobbz\FlarumExtMoneyBatchTransfer\Api\Controller;
+namespace Cobbz\FlarumExtMoneyTransfer\Api\Controller;
 
 use Psr\Http\Server\RequestHandlerInterface;
 use AntoineFr\Money\Event\MoneyUpdated;
