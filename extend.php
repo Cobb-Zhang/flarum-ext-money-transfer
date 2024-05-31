@@ -12,6 +12,9 @@
 namespace Cobbz\FlarumExtMoneyBatchTransfer;
 
 use Flarum\Extend;
+use Flarum\Api\Serializer\ForumSerializer;
+use Cobbz\FlarumExtMoneyBatchTransfer\Api\Controller\HelloWorldController;
+use Cobbz\FlarumExtMoneyBatchTransfer\Api\Controller\EventsShowController;
 
 return [
     (new Extend\Frontend('forum'))
@@ -21,4 +24,8 @@ return [
         ->js(__DIR__.'/js/dist/admin.js')
         ->css(__DIR__.'/less/admin.less'),
     new Extend\Locales(__DIR__.'/locale'),
+
+    (new Extend\Routes('api'))
+        ->post('/helloworld', 'helloworld', HelloWorldController::class)
+        ->get('/events/{id}','events.show',EventsShowController::class)
 ];
