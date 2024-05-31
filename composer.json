@@ -1,6 +1,6 @@
 {
     "name": "cobbz/flarum-ext-money-transfer",
-    "description": "extend money extension",
+    "description": "A Flarum extension. Allow user to transfer money to other users with emaillist",
     "keywords": [
         "flarum"
     ],
