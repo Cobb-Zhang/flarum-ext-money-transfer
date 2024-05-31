@@ -30,8 +30,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var flarum_forum_app__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! flarum/forum/app */ "flarum/forum/app");
 /* harmony import */ var flarum_forum_app__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(flarum_forum_app__WEBPACK_IMPORTED_MODULE_0__);
 
-flarum_forum_app__WEBPACK_IMPORTED_MODULE_0___default().initializers.add('cobbz/flarum-ext-money-batch-transfer', function () {
-  console.log('[cobbz/flarum-ext-money-batch-transfer] Hello, forum, cobb4!');
+flarum_forum_app__WEBPACK_IMPORTED_MODULE_0___default().initializers.add('cobbz/flarum-ext-money-transfer', function () {
+  console.log('[cobbz/flarum-ext-money-transfer] Hello, forum, cobb4!');
   // extend(HeaderPrimary.prototype, 'items', function(items) {
   //   items.add('google', <a href="https://google.com">Google</a>);
   // });

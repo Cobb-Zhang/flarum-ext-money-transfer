@@ -1,4 +1,4 @@
-name: Flarum-ext-money-batch-transfer PHP
+name: flarum-ext-money-transfer PHP
 
 on: [workflow_dispatch, push, pull_request]
 

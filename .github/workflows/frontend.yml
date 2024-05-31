@@ -1,4 +1,4 @@
-name: Flarum-ext-money-batch-transfer JS
+name: flarum-ext-money-transfer JS
 
 on: [workflow_dispatch, push, pull_request]
 

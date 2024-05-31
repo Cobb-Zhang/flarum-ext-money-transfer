@@ -1,5 +1,5 @@
 {
-    "name": "@cobbz/flarum-ext-money-batch-transfer",
+    "name": "@cobbz/flarum-ext-money-transfer",
     "private": true,
     "devDependencies": {
         "@flarum/prettier-config": "^1.0.0",

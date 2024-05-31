@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of cobbz/flarum-ext-money-batch-transfer.
+ * This file is part of cobbz/flarum-ext-money-transfer.
  *
  * Copyright (c) 2024 cobbz.
  *

@@ -10,8 +10,8 @@ import CommentPost from 'flarum/forum/components/CommentPost';
 import PostControls from 'flarum/forum/utils/PostControls';
 import extractText from 'flarum/common/utils/extractText';
 
-app.initializers.add('cobbz/flarum-ext-money-batch-transfer', () => {
-  console.log('[cobbz/flarum-ext-money-batch-transfer] Hello, forum, cobb4!');
+app.initializers.add('cobbz/flarum-ext-money-transfer', () => {
+  console.log('[cobbz/flarum-ext-money-transfer] Hello, forum, cobb4!');
   // extend(HeaderPrimary.prototype, 'items', function(items) {
   //   items.add('google', <a href="https://google.com">Google</a>);
   // });
