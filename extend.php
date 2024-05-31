@@ -24,5 +24,5 @@ return [
     new Extend\Locales(__DIR__.'/locale'),
 
     (new Extend\Routes('api'))
-        ->post('/helloworld', 'helloworld', MoneyTransferController::class)
+        ->post('/fine-transfer-money', 'fine-transfer-money', MoneyTransferController::class)
 ];

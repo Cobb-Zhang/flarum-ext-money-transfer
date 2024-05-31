@@ -25,7 +25,7 @@
     },
     "extra": {
         "flarum-extension": {
-            "title": "Flarum-ext-money-transfer",
+            "title": "Fine Money Transfer",
             "category": "",
             "icon": {
                 "name": "fas fa-wallet",
